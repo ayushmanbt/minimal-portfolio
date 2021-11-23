@@ -53,6 +53,10 @@ body{
     transition: all 0.3s ease;
 }
 
+.useful_links{
+    display: flex;
+    gap: 10px;
+}
 
 .container > div{
     margin-bottom: 40px;
