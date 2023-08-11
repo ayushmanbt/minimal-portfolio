@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Ayushman Bilas Thakur</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="iconcolors.css">
     <link rel="shortcut icon" href="favicon.ico">
 </head>
 <body class="light">
-    <button id="changer" onclick="changemode()">ChangeMode</button>
+    <button id="changer" onclick="changemode()">
+        <p>Change Theme</p>
+    </button>
     <div class="container">
         <div class="top-part">
             <!-- <div class="image">
@@ -96,37 +98,43 @@
             <div class="tech-container">
                 <div class="technology">
                     <!-- <i class="fab fa-html5"></i> -->
-                    <div src="/icons/html5.svg" class="icon"></div>
+                    <div src="/icons/html5.svg" class="icon html5"></div>
                     <span class="text">HTML5</span>
                 </div>
     
                 <div class="technology">
                     <!-- <i class="fab fa-css3"></i> -->
-                    <div src="/icons/css3.svg" class="icon"></div>
+                    <div src="/icons/css3.svg" class="icon css3"></div>
                     <span class="text">CSS3</span>
                 </div>
 
                 <div class="technology">
                     <!-- <i class="fab fa-js"></i> -->
-                    <div src="/icons/javascript.svg" class="icon"></div>
+                    <div src="/icons/javascript.svg" class="icon js"></div>
                     <span class="text">Javascript</span>
                 </div>
 
                 <div class="technology">
+                    <!-- <i class="fab fa-js"></i> -->
+                    <div src="/icons/typescript.svg" class="icon ts"></div>
+                    <span class="text">Typecript</span>
+                </div>
+
+                <div class="technology">
                     <!-- <i class="fab fa-react"></i> -->
-                    <div src="/icons/react.svg" class="icon"></div>
+                    <div src="/icons/react.svg" class="icon react"></div>
                     <span class="text">React</span>
                 </div>
 
                 <div class="technology">
                     <!-- <i class="fab fa-vuejs"></i> -->
-                    <div src="/icons/vuejs.svg" class="icon"></div>
+                    <div src="/icons/vuejs.svg" class="icon vue"></div>
                     <span class="text">Vue.js</span>
                 </div>
 
                 <div class="technology">
                     <!-- <i class="fab fa-node-js"></i> -->
-                    <div src="/icons/nodejs.svg" class="icon"></div>
+                    <div src="/icons/nodejs.svg" class="icon node"></div>
                     <span class="text">Node.js + Express</span>
                 </div>
 
@@ -137,17 +145,17 @@
                 </div>
                 <div class="technology">
                     <!-- <i class="fas fa-database"></i> -->
-                    <div src="/icons/c.svg" class="icon"></div>
+                    <div src="/icons/c.svg" class="icon c"></div>
                     <span class="text">C</span>
                 </div>
                 <div class="technology">
                     <!-- <i class="fas fa-database"></i> -->
-                    <div src="/icons/python.svg" class="icon"></div>
+                    <div src="/icons/python.svg" class="icon python"></div>
                     <span class="text">Python</span>
                 </div>
                 <div class="technology">
                     <!-- <i class="fas fa-database"></i> -->
-                    <div src="/icons/java.svg" class="icon"></div>
+                    <div src="/icons/java.svg" class="icon java"></div>
                     <span class="text">Java</span>
                 </div>
             </div>
@@ -174,21 +182,21 @@
                            
                             <div class="technology">
                                 <!-- <i class="fab fa-react"></i> -->
-                                <div src="/icons/react.svg" class="icon"></div>
+                                <div src="/icons/react.svg" class="icon react"></div>
                                 <span class="text">React</span>
                             </div>
 
 
                             <div class="technology">
                                 <!-- <i class="fab fa-node-js"></i> -->
-                                <div src="/icons/nodejs.svg" class="icon"></div>
+                                <div src="/icons/nodejs.svg" class="icon node"></div>
                                 <span class="text">Node.js</span>
                             </div>
                         
 
                             <div class="technology">
                                 <!-- <i class="fab fa-php"></i> -->
-                                <div src="/icons/php.svg" class="icon"></div>
+                                <div src="/icons/php.svg" class="icon php"></div>
                                 <span class="text">PHP</span>
                             </div>
                         
@@ -213,13 +221,13 @@
                         <div class="tech-container">
                             <div class="technology">
                                 <!-- <i class="fab fa-vuejs"></i> -->
-                                <div src="/icons/vuejs.svg" class="icon"></div>
+                                <div src="/icons/vuejs.svg" class="icon vue"></div>
                                 <span class="text">Vue.js</span>
                             </div>
             
                             <div class="technology">
                                 <!-- <i class="fab fa-node-js"></i> -->
-                                <div src="/icons/nodejs.svg" class="icon"></div>
+                                <div src="/icons/nodejs.svg" class="icon node"></div>
                                 <span class="text">Express.js</span>
                             </div>
                         </div>
@@ -242,7 +250,7 @@
                         <div class="tech-container">
                             <div class="technology">
                                 <!-- <i class="fab fa-vuejs"></i> -->
-                                <div src="/icons/vuejs.svg" class="icon"></div>
+                                <div src="/icons/vuejs.svg" class="icon vue"></div>
                                 <span class="text">Vue.js</span>
                             </div>
                         </div>
@@ -263,15 +271,16 @@
                     <div>
                         <h4>Grader</h4>
                         <p class="company">Arizona State University</p>
-                    </div>Taught students of different age groups basics of programming using C, Java, Python and other programming languages
-
+                    </div>
+                    
                     <p class="body">Wroked as a grader in Arizona State University for the Advanced Operating Systems Course in Spring 2023, under professor Adil Ahmad. Helped with assignment and exam grading as well as doubt clearing for students regarding assignments</p>
                 
                     <div class="card-footer">
                         <div class="tech-container">
             
                             <div class="technology">
-                                <div src="/icons/c.svg" class="icon"></div>
+                                <div src="/icons/c.svg" class="icon c"></div>
+                                <span class="text">the language</span>
                             </div>
 
                             <div class="technology">
@@ -304,21 +313,24 @@
                         <div class="tech-container">
             
                             <div class="technology">
-                                <b>C</b>
-                            </div>
-
-                            <div class="technology">
-                                <!-- <i class="fab fa-java"></i> -->
-                                <div src="/icons/java.svg" class="icon"></div>
-                                <span class="text">Java</span>
+                                <div class="technology">
+                                    <div src="/icons/c.svg" class="icon c"></div>
+                                    <span class="text">the language</span>
+                                </div>
                             </div>
 
                             <div class="technology">
                                 <!-- <i class="fab fa-python"></i> -->
-                                <div src="/icons/python.svg" class="icon"></div>
+                                <div src="/icons/python.svg" class="icon python"></div>
 
                                 <span class="text">Python</span>
                             </div>
+                            <div class="technology">
+                                <!-- <i class="fab fa-java"></i> -->
+                                <div src="/icons/java.svg" class="icon java"></div>
+                                <span class="text">Java</span>
+                            </div>
+
                         </div>
                         <div class="date">
                             01.2021 - 07.2022
@@ -366,7 +378,7 @@
                                 <!-- <i class="fab fa-github"></i> -->
                                 <div src="/icons/github.svg" class="icon"></div>
                                 
-                                <span class="text">GitHub</span>
+                                <span class="text">Source</span>
                             </a>
                             <a href="https://pmdrtimer.netlify.app/" class="company technology" target="_blank">
                                 <!-- <i class="fas fa-globe"></i> -->
@@ -383,21 +395,21 @@
                         <div class="tech-container">
                             <div class="technology">
                                 <!-- <i class="fab fa-html5"></i> -->
-                                <div src="/icons/html5.svg" class="icon"></div>
+                                <div src="/icons/html5.svg" class="icon html5"></div>
 
                                 <span class="text">HTML5</span>
                             </div>
                 
                             <div class="technology">
                                 <!-- <i class="fab fa-css3"></i> -->
-                                <div src="/icons/css3.svg" class="icon"></div>
+                                <div src="/icons/css3.svg" class="icon css3"></div>
                                 
                                 <span class="text">CSS3</span>
                             </div>
             
                             <div class="technology">
                                 <!-- <i class="fab fa-js"></i> -->
-                                <div src="/icons/javascript.svg" class="icon"></div>
+                                <div src="/icons/javascript.svg" class="icon js"></div>
                                 <span class="text">Javascript</span>
                             </div>
                         </div>
@@ -412,7 +424,7 @@
                             <a href="https://github.com/ayushmanbt/otp-game" class="company technology" target="_blank">
                                 <!-- <i class="fab fa-github"></i> -->
                                 <div src="/icons/github.svg" class="icon"></div>
-                                <span class="text">GitHub</span>
+                                <span class="text">Source</span>
                             </a>
                             <a href="https://theotpgame.netlify.app/" class="company technology" target="_blank">
                                 <!-- <i class="fas fa-globe"></i> -->
@@ -428,13 +440,13 @@
                         <div class="tech-container">
                             <div class="technology">
                                 <!-- <i class="fab fa-react"></i> -->
-                                <div src="/icons/react.svg" class="icon"></div>
+                                <div src="/icons/react.svg" class="icon react"></div>
                                 <span class="text">React</span>
                             </div>
             
                             <div class="technology">
                                 <!-- <i class="fab fa-typescript"></i> -->
-                                <div src="/icons/typescript.svg" class="icon"></div>
+                                <div src="/icons/typescript.svg" class="icon ts"></div>
                                 <span class="text">Typescript</span>
                             </div>
                         </div>
@@ -449,7 +461,7 @@
                             <a target="_blank" href="https://github.com/ayushmanbt/expense_tracker" target="_blank" class="company technology">
                                 <!-- <i class="fab fa-github"></i> -->
                                 <div src="/icons/github.svg" class="icon"></div>
-                                <span class="text">GitHub</span>
+                                <span class="text">Source</span>
                             </a>
                             <a target="_blank" href="https://transaction-list.netlify.app/" class="company technology">
                                 <!-- <i class="fas fa-globe"></i> -->
@@ -470,19 +482,19 @@
                         <div class="tech-container">
                             <div class="technology">
                                 <!-- <i class="fab fa-html5"></i> -->
-                                <div src="/icons/html5.svg" class="icon"></div>
+                                <div src="/icons/html5.svg" class="icon html5"></div>
                                 <span class="text">HTML5</span>
                             </div>
                 
                             <div class="technology">
                                 <!-- <i class="fab fa-css3"></i> -->
-                                <div src="/icons/css3.svg" class="icon"></div>
+                                <div src="/icons/css3.svg" class="icon css3"></div>
                                 <span class="text">CSS3</span>
                             </div>
             
                             <div class="technology">
                                 <!-- <i class="fab fa-js"></i> -->
-                                <div src="/icons/javascript.svg" class="icon"></div>
+                                <div src="/icons/javascript.svg" class="icon js"></div>
                                 <span class="text">Javascript</span>
                             </div>
                         </div>
@@ -499,7 +511,7 @@
                             <a href="https://github.com/ayushmanbt/Odd_N_Even" class="company technology" target="_blank">
                                 <!-- <i class="fab fa-github"></i> -->
                                 <div src="/icons/github.svg" class="icon"></div>
-                                <span class="text">GitHub</span>
+                                <span class="text">Source</span>
                             </a>
                             <a href="https://oddneven.netlify.app/" class="company technology" target="_blank">
                                 <!-- <i class="fas fa-globe"></i> -->
@@ -515,17 +527,17 @@
                         <div class="tech-container">
                             <div class="technology">
                                 <!-- <i class="fab fa-vuejs"></i> -->
-                                <div src="/icons/html5.svg" class="icon"></div>
+                                <div src="/icons/html5.svg" class="icon html5"></div>
                                 <span class="text">HTML 5</span>
                             </div>
                             <div class="technology">
                                 <!-- <i class="fab fa-vuejs"></i> -->
-                                <div src="/icons/css3.svg" class="icon"></div>
+                                <div src="/icons/css3.svg" class="icon css3"></div>
                                 <span class="text">CSS3</span>
                             </div>
                             <div class="technology">
                                 <!-- <i class="fab fa-vuejs"></i> -->
-                                <div src="/icons/javascript.svg" class="icon"></div>
+                                <div src="/icons/javascript.svg" class="icon js"></div>
                                 <span class="text">JavaScript</span>
                             </div>
                         </div>
@@ -540,12 +552,12 @@
                             <a href="https://github.com/ayushmanbt/useful_sites_backend" class="company technology" target="_blank">
                                 <!-- <i class="fab fa-github"></i> -->
                                 <div src="/icons/github.svg" class="icon"></div>
-                                <span class="text">GitHub Backend</span>
+                                <span class="text">Backend</span>
                             </a>
                             <a href="https://github.com/ayushmanbt/useful_sites_frontend" class="company technology" target="_blank">
                                 <!-- <i class="fab fa-github"></i> -->
-                                <div src="/icons/laptop.svg" class="icon"></div>
-                                <span class="text">GitHub Frontend</span>
+                                <div src="/icons/github.svg" class="icon"></div>
+                                <span class="text">Frontend</span>
                             </a>
                             <a href="https://useful-sites.netlify.app/" class="company technology" target="_blank">
                                 <!-- <i class="fas fa-globe"></i> -->
@@ -561,14 +573,16 @@
                         <div class="tech-container">
                             <div class="technology">
                                 <!-- <i class="fab fa-react"></i> -->
-                                <div src="/icons/react.svg" class="icon"></div>
+                                <div src="/icons/react.svg" class="icon react"></div>
                                 <span class="text">React</span>
                             </div>
             
                             <div class="technology">
                                 <!-- <i class="fab fa-node-js"></i> -->
-                                <div src="/icons/nodejs.svg" class="icon"></div>
-                                <span class="text"><Express class="js"></Express></span>
+                                <div src="/icons/nodejs.svg" class="icon node"></div>
+                                <span class="text">
+                                    Express.js
+                                </span>
                             </div>
             
                             <div class="technology">
@@ -588,12 +602,12 @@
                             <a href="https://github.com/ayushmanbt/restaurant_app_backend" target="_blank" class="company technology">
                                 <!-- <i class="fab fa-github"></i> -->
                                 <div src="/icons/github.svg" class="icon"></div>
-                                <span class="text">GitHub Backend</span>
+                                <span class="text">Backend</span>
                             </a>
                             <a href="https://github.com/ayushmanbt/restaurant_menu_frontend" target="_blank" class="company technology">
                                 <!-- <i class="fab fa-github"></i> -->
-                                <div src="/icons/laptop.svg" class="icon"></div>
-                                <span class="text">GitHub Frontend</span>
+                                <div src="/icons/github.svg" class="icon"></div>
+                                <span class="text">Frontend</span>
                             </a>
                             <a href="https://restaurant-app-frontend.netlify.app/" target="_blank" class="company technology">
                                 <!-- <i class="fas fa-globe"></i> -->
@@ -609,13 +623,13 @@
                         <div class="tech-container">
                             <div class="technology">
                                 <!-- <i class="fab fa-vuejs"></i> -->
-                                <div src="/icons/vuejs.svg" class="icon"></div>
+                                <div src="/icons/vuejs.svg" class="icon vue"></div>
                                 <span class="text">Vue.js</span>
                             </div>
             
                             <div class="technology">
                                 <!-- <i class="fab fa-node-js"></i> -->
-                                <div src="/icons/nodejs.svg" class="icon"></div>
+                                <div src="/icons/nodejs.svg" class="icon node"></div>
                                 <span class="text">Express.js</span>
                             </div>
             
@@ -680,9 +694,6 @@
     <div class="footer">
         &copy; Ayushman Bilas Thakur 2023
     </div>
-
-
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 
     <script src="./NameAnimation.js"></script>
     <script src="./LightDarkDetector.js"></script>

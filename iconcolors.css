@@ -1,0 +1,156 @@
+:root{
+    --html5-light: #ff6c00;
+    --css3-light: #053952;
+    --js-light: #ff912b;
+    --ts-light: #0075c6;
+    --react-light: #00004e;
+    --vue-light: #304559;
+    --node-light: #2e7a2e;
+    --c-light: #2d3b8f;
+    --python-light: #3674a7;
+    --java-light: #1f6abd;
+    --php-light: #353c55;
+
+
+    --html5-dark: #ff8d4b;
+    --css3-dark: #84ffef;
+    --js-dark: #ffd92f;
+    --ts-dark: #0075c6;
+    --react-dark: #9bd5ff;
+    --vue-dark: #3daf7d;
+    --node-dark: #85bd00;
+    --c-dark: #6599c8;
+    --python-dark: #fdd446;
+    --java-dark: #ff7649;
+    --php-dark: #cfd9fd;
+
+}
+
+body.light {
+    --html5: var(--html5-light);
+    --css3: var(--css3-light);
+    --js: var(--js-light);
+    --ts: var(--ts-light);
+    --react: var(--react-light);
+    --vue: var(--vue-light);
+    --node: var(--node-light);
+    --c: var(--c-light);
+    --python: var(--python-light);
+    --java: var(--java-light);
+    --php: var(--php-light);
+
+
+}
+
+body.dark {
+    --html5: var(--html5-dark);
+    --css3: var(--css3-dark);
+    --js: var(--js-dark);
+    --ts: var(--ts-dark);
+    --react: var(--react-dark);
+    --vue: var(--vue-dark);
+    --node: var(--node-dark);
+    --c: var(--c-dark);
+    --python: var(--python-dark);
+    --java: var(--java-dark);
+    --php: var(--php-dark);
+
+}
+
+.html5 {
+    background-color: var(--html5) !important;
+}
+
+.html5 + .text{
+    color: var(--html5);
+}
+
+
+.css3 {
+    background-color: var(--css3) !important;
+}
+
+.css3 + .text{
+    color: var(--css3);
+}
+
+
+.js {
+    background-color: var(--js) !important;
+}
+
+.js + .text{
+    color: var(--js);
+}
+
+
+
+.ts {
+    background-color: var(--ts) !important;
+}
+
+.ts + .text{
+    color: var(--ts);
+}
+
+
+.react {
+    background-color: var(--react) !important;
+}
+
+.react + .text{
+    color: var(--react);
+}
+
+
+.vue {
+    background-color: var(--vue) !important;
+}
+
+.vue + .text{
+    color: var(--vue);
+}
+
+
+.node {
+    background-color: var(--node) !important;
+}
+
+.node + .text{
+    color: var(--node);
+}
+
+
+.c {
+    background-color: var(--c) !important;
+}
+
+.c + .text{
+    color: var(--c);
+}
+
+
+.python {
+    background-color: var(--python) !important;
+}
+
+.python + .text{
+    color: var(--python);
+}
+
+
+.java {
+    background-color: var(--java) !important;
+}
+
+.java + .text{
+    color: var(--java);
+}
+
+.php {
+    background-color: var(--php) !important;
+}
+
+.php + .text{
+    color: var(--php);
+}
